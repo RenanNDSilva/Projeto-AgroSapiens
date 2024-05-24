@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSapiens</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/video-section.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-seedling" id="nav_logo"> AgroSapiens</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#guardiao">Guardião</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default-login">
+                <div class="btn-config">
+                    <i class="fa-solid fa-user"></i>
+                    <a>Entrar</a>
+                </div>
+            </button>
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#guardiao">Guardião</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                <i class="fa-solid fa-user"></i>
+                <a>Fazer Login</a>
+            </button>
+        </div>
+    </header>
+    <main class="content">
+        <section class="video-section">
+            <video autoplay loop muted>
+                <source src="assets/video/video.mp4" type="video/mp4">
+            </video>
+        </section>
+        <div class="menu-spacing"></div>
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">AgroSapiens inovação no <span>Agronegócio</span></h1>
+                <p class="description">A AgroSapiens é uma empresa dedicada à inovação no setor agrícola. Nossa missão é fornecer soluções avançadas e dados precisos para o mercado agropecuário. Combinando experiência e tecnologia, transformamos a maneira como os participantes desse mercado tomam decisões.</p>
+                <p class="description">Nossos valores fundamentais incluem inovação contínua, precisão baseada em dados confiáveis e simplicidade na comunicação. Junte-se à AgroSapiens e leve sua estratégia para o próximo nível!</p>
+                <div id="cta_buttons">
+                    <a href="" class="btn-default">
+                        Saiba Mais
+                    </a>
+                    <a href="#" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (16) 4402-9922
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="menu-spacing"></div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
