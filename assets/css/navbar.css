@@ -9,7 +9,7 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #nav_logo {
@@ -41,10 +41,6 @@ header {
 #mobile_menu {
     display: none;
 }
-
-/* .btn-default-login {
-    margin-right: 100px;
-} */
 
 @media screen and (max-width: 1170px) {
     #nav_list,

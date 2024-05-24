@@ -53,21 +53,11 @@
     box-shadow: none;
 }
 
-#banner {
-    display: flex;
-    align-items: start;
-    justify-content: end;
-    width: 70%;
-    z-index: 2;
-}
-
-#banner img {
-    height: 100%;
-    width: fit-content;
-}
-
 .shape {
-    background-color: var(--color-primary-2);
+    background-image: url(../img/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 50%;
     height: 100%;
     position: absolute;
