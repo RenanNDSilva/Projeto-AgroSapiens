@@ -114,24 +114,26 @@ form .form-row .textarea {
     /* transition: all 0.3s; */
     background: none; /* Cor de fundo inicial */
     color: var(--color-neutral-1); /* Cor do texto inicial */
-    transition: all 300ms ease-in-out; /* Animação suave */
+    transition: all 0.1s ease-in-out; /* Animação suave */
     border: 2px solid var(--color-neutral-1);
 }
 
 .submit-btn .input-data input {
     position: relative;
-    z-index: 3;
+    z-index: 2;
     background: none;
     border: none;
+    color: var(--color-neutral-1);
     font-size: 17px;
     font-weight: 500;
     text-transform: capitalize;
     letter-spacing: 1px;
     cursor: pointer;
+    transition: all 300ms ease-in-out;
 }
 
-.submit-btn .input-data:hover .inner {
-    color: var(--color-primary-1) !important; /* Cor do texto ao passar o mouse */
+.submit-btn .input-data input:hover {
+    color: var(--color-primary-1);
     background: var(--color-neutral-1); /* Cor de fundo ao passar o mouse */
 }
 
