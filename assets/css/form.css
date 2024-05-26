@@ -1,4 +1,10 @@
-#cta-2 {
+#empresa {
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+}
+
+#contant-form {
     padding-left: 8%;
     position: absolute;
     width: 35%;
@@ -9,21 +15,45 @@
     z-index: 0;
 }
 
-#cta-2 .title {
+#agro-sapiens {
+    padding-left: 58%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+    z-index: 0;
+}
+
+#agro-sapiens .title {
+    font-size: 4rem;
+    color: var(--color-neutral-1);;
+}
+
+#agro-sapiens .title span {
+    color: var(--color-primary-6);
+}
+
+#agro-sapiens .description {
+    font-size: 1.2rem;
+}
+
+#contant-form .title {
     font-size: 4rem;
     color: var(--color-neutral-1);
 }
 
-#cta-2 .text {
+#contant-form .text {
     font-size: 4rem;
     color: var(--color-neutral-1);
 }
 
-#cta-2 form {
+#contant-form form {
     padding: 30px 0 0 0 0;
 }
 
-#cta-2 form .form-row {
+#contant-form form .form-row {
     display: block;
     margin: 32px 0;
     margin-left: -19px;
@@ -52,7 +82,7 @@ form .form-row .textarea {
 
 .input-data input:focus ~ label, .textarea textarea:focus ~ label, .input-data input:valid ~ label, .textarea textarea:valid ~ label {
     transform: translateY(-30px);
-    color: #3498db;
+    color: var(--color-neutral-1);
     font-size: 14px;
 }
 
@@ -89,7 +119,7 @@ form .form-row .textarea {
     content: "";
     height: 100%;
     width: 100%;
-    background: #3498db;
+    background: var(--color-neutral-1);
     transform: scaleX(0);
     transform-origin: center;
     transition: 0.3s ease;
