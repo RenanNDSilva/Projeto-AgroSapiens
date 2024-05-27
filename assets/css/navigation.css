@@ -1,0 +1,101 @@
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 8%;
+    align-items: flex-start;
+}
+
+#img-logo {
+    font-size: 24px;
+    color: #e9a209;
+    max-height: 100%;  /* Logo não será maior que a altura da navbar */
+    height: 70px;
+}
+
+.navigation-list {
+    align-items: flex-start;
+}
+
+.navigation-list h2 {
+    font-size: 2rem;
+    color: var(--color-neutral-1);;
+}
+
+.contato h2 {
+    font-size: 2rem;
+    color: var(--color-neutral-1);;
+}
+
+.navigation-list ul li{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.navigation-list a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
+
+#navigation .social-media-buttons {
+    padding-top: 10px;
+    display: inline-grid;
+    gap: 18px;
+}
+
+#navigation .social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: var(--color-neutral-0);
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-neutral-1);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+    z-index: 3;
+}
+
+#navigation .social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+#navigation .social-media-buttons .item-one {
+    cursor: default;
+    transition: none;
+    align-items: flex-end;
+    padding-left: 50px;
+    font-size: 1rem;
+    padding-top: 6px;
+    justify-content: right;
+    position: absolute;
+    z-index: 1;
+}
+
+#navigation .social-media-buttons .item-two {
+    cursor: default;
+    transition: none;
+    align-items: flex-end;
+    padding-left: 50px;
+    font-size: 1rem;
+    padding-top: 67px;
+    justify-content: right;
+    position: absolute;
+    z-index: 1;
+}
+
+#navigation .social-media-buttons .item-three {
+    cursor: default;
+    transition: none;
+    align-items: flex-end;
+    padding-left: 50px;
+    font-size: 1rem;
+    padding-top: 124px;
+    justify-content: right;
+    position: absolute;
+    z-index: 1;
+}
