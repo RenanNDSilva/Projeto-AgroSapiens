@@ -49,6 +49,12 @@ header {
     display: none;
 }
 
+.media-button {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 @media screen and (max-width: 1170px) {
     #nav_list,
     #navbar .btn-default {
