@@ -5,11 +5,9 @@
     align-items: flex-start;
 }
 
-#img-logo {
-    font-size: 24px;
-    color: #e9a209;
-    max-height: 100%;  /* Logo não será maior que a altura da navbar */
-    height: 70px;
+#navigation img {  /* Logo não será maior que a altura da navbar */
+    max-height: 100%;
+    height: 300px;
 }
 
 .navigation-list {
@@ -35,8 +33,9 @@
 
 .navigation-list a {
     text-decoration: none;
-    color: #1d1d1dad;
+    color: var(--color-neutral-1);
     font-weight: 600;
+    color: var(--color-neutral-1);
 }
 
 #navigation .social-media-buttons {
@@ -75,6 +74,7 @@
     justify-content: right;
     position: absolute;
     z-index: 1;
+    color: var(--color-neutral-1);
 }
 
 #navigation .social-media-buttons .item-two {
@@ -87,6 +87,7 @@
     justify-content: right;
     position: absolute;
     z-index: 1;
+    color: var(--color-neutral-1);
 }
 
 #navigation .social-media-buttons .item-three {
@@ -99,4 +100,5 @@
     justify-content: right;
     position: absolute;
     z-index: 1;
+    color: var(--color-neutral-1);
 }

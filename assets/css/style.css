@@ -35,7 +35,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb45;
+    background-color: var(--color-neutral-1);
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -51,7 +51,7 @@ section {
 .btn-config a {
     padding: 1px 5px;
     text-decoration: none;
-    color: #1d1d1dad;
+    color: var(--color-primary-1);
 }
 
 .social-media-buttons {

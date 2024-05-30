@@ -37,6 +37,7 @@
 
 #agro-sapiens .description {
     font-size: 1.2rem;
+    color: var(--color-neutral-1);
 }
 
 #contant-form .title {
@@ -136,6 +137,7 @@ form .form-row .textarea {
 }
 
 .submit-btn .input-data .inner {
+    border-radius: 12px;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -149,6 +151,7 @@ form .form-row .textarea {
 }
 
 .submit-btn .input-data input {
+    border-radius: 12px;
     position: relative;
     z-index: 2;
     background: none;
