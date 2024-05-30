@@ -10,8 +10,12 @@ footer {
 }
 
 #copyright {
-    color: var(--color-neutral-1);;
+    color: var(--color-neutral-0);
     font-weight: 500;
+}
+
+#footer_items p {
+    color: var(--color-neutral-0);
 }
 
 @media screen and (max-width: 600px) {
