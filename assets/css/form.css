@@ -87,6 +87,11 @@ form .form-row .textarea {
     font-size: 14px;
 }
 
+.inputField:focus::placeholder {
+    color: var(--color-neutral-1); /* Placeholder visível quando o campo está em foco */
+    transition: color 1s ease;
+}
+
 .textarea textarea {
     resize: none;
     padding-top: 10px;
@@ -128,6 +133,10 @@ form .form-row .textarea {
 
 .input-data input:focus ~ .underline:before, .underline:after, .textarea textarea:focus .underline:before, .underline:after, .input-data input:valid .underline:before, .underline:after, .textarea textarea:valid .underline:before, .underline:after {
     transform: scaleX(1);
+}
+
+.inputField::placeholder {
+    color: transparent; /* Placeholder oculto */
 }
 
 .submit-btn .input-data{

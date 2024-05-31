@@ -44,9 +44,9 @@ section {
     transition: background-color .3s ease;
 }
 
-.btn-default:hover {
+/* .btn-default:hover {
     background-color: #f8d477;
-}
+} */
 
 .btn-config a {
     padding: 1px 5px;
