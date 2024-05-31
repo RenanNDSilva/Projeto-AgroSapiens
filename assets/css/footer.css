@@ -17,10 +17,3 @@ footer {
 #footer_items p {
     color: var(--color-neutral-0);
 }
-
-@media screen and (max-width: 600px) {
-    #footer_items {
-        flex-direction: column;
-        gap: 20px;
-    }
-}

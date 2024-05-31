@@ -12,24 +12,24 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/form.css">
     <link rel="stylesheet" href="assets/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/guardian.css">
     <link rel="icon" type="image/x-icon" href="assets/img/Icon Renan.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
         <nav id="navbar">
             <h1><img src="assets/img/Logo_1.png" alt="Logo" id="nav_logo"></h1>
-            <!-- <i class="fa-solid fa-seedling" id="nav_logo"> AgroSapiens</i> -->
-
             <ul id="nav_list">
                 <li class="nav-item active">
                     <a href="#home">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#guardiao">Guardião</a>
+                    <a href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#sobre">Sobre</a>
+                    <a href="#guardiao">Guardião</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contato">Contato</a>
@@ -53,29 +53,8 @@
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
-
             </div>
-            <button id="mobile_btn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
         </nav>
-
-        <div id="mobile_menu">
-            <ul id="mobile_nav_list">
-                <li class="nav-item active">
-                    <a href="#home">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#guardiao">Guardião</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#sobre">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contato">Contato</a>
-                </li>
-            </ul>
-        </div>
     </header>
     <main class="content">
         <section id="video" class="video-section">
@@ -103,14 +82,26 @@
                 </div>
             </div>
         </section>
-        <div class="menu-spacing"></div>
+        <section id="guardiao">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title"><span>AgroSapiens:</span> inovação no agronegócio</h1>
+                <p class="description">A AgroSapiens é uma empresa dedicada à inovação no setor agrícola. Nossa missão é fornecer soluções avançadas e dados precisos para o mercado agropecuário. Combinando experiência e tecnologia, transformamos a maneira como os participantes desse mercado tomam decisões.</p>
+                <p class="description">Nossos valores fundamentais incluem inovação contínua, precisão baseada em dados confiáveis e simplicidade na comunicação. Junte-se à AgroSapiens e leve sua estratégia para o próximo nível!</p>
+                <div id="cta_buttons">
+                    <a href="" class="btn-default">
+                        Contato
+                    </a>
+                </div>
+            </div>
+        </section>
         <section id="empresa">
             <div id="contant-form">
                 <h1 class="title">Fale Conosco</h1>
                 <form action="#">
                     <div class="form-row">
                         <div class="input-data">
-                            <input placeholder="Digite seu nome completo" class="inputField" type="text" required>
+                            <input placeholder=" Digite seu nome completo" class="inputField" type="text" required>
                             <div class="underline"></div>
                             <label>Nome</label>
                         </div>
@@ -124,21 +115,21 @@
                     </div>
                     <div class="form-row">
                         <div class="input-data">
-                            <input placeholder="(XX) XXXXX-XXXX" class="inputField" type="tel" required>
+                            <input placeholder=" (XX) XXXXX-XXXX" class="inputField" type="tel" required>
                             <div class="underline"></div>
                             <label>Telefone</label>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="input-data">
-                            <input placeholder="Digite o nome da sua empresa" class="inputField" type="text" required>
+                            <input placeholder=" Digite o nome da sua empresa" class="inputField" type="text" required>
                             <div class="underline"></div>
                             <label>Empresa</label>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="input-data">
-                            <input placeholder="Digite seu estado" class="inputField" type="text" required>
+                            <input placeholder=" Digite seu estado" class="inputField" type="text" required>
                             <div class="underline"></div>
                             <label>Estado</label>
                         </div>

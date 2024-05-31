@@ -178,21 +178,3 @@ form .form-row .textarea {
     color: var(--color-primary-1);
     background: var(--color-neutral-1); /* Cor de fundo ao passar o mouse */
 }
-
-@media (max-width: 700px) {
-    .container .text {
-        font-size: 30px;
-    }
-    .container form {
-        padding:  10px 0 0 0 0;
-    }
-    .container foorm .form-row {
-        display: block;
-    }
-    form .form-row .input-data {
-        margin: 35px 0 !important;
-    }
-    .submit-btn .input-data {
-        width: 40px !important;
-    }
-}
