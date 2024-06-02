@@ -30,6 +30,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     padding: 28px auto;
 }
