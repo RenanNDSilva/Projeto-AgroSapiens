@@ -6,6 +6,7 @@
 @import url(navbar.css);
 @import url(navigation.css);
 @import url(video-section.css);
+@import url(statistics.css);
 
 :root {
     --color-primary-1: #edf2ed;
@@ -40,6 +41,14 @@ section {
 
 .menu-spacing {
     height: 25px;
+}
+
+.menu-spacing-corretion {
+    width: 100vw;
+    height: 1px;
+    background-color: var(--color-primary-1);
+    z-index: 3;
+    position: absolute;
 }
 
 .btn-default, .btn-default-login {
