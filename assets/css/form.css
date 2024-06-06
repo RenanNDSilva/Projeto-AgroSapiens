@@ -79,6 +79,8 @@ form .form-row .textarea {
     border: none;
     font-size: 17px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    outline: none;
 }
 
 .input-data input:focus ~ label, .textarea textarea:focus ~ label, .input-data input:valid ~ label, .textarea textarea:valid ~ label {
@@ -117,7 +119,7 @@ form .form-row .textarea {
     bottom: 0;
     height: 2px;
     width: 100%;
-    background: var(--color-neutral-1);
+    /* background: var(--color-neutral-1); */
 }
 
 .input-data .underline:before, .input-data .underline:after {
@@ -125,7 +127,7 @@ form .form-row .textarea {
     content: "";
     height: 100%;
     width: 100%;
-    background: var(--color-neutral-1);
+    /* background: var(--color-neutral-1); */
     transform: scaleX(0);
     transform-origin: center;
     transition: 0.3s ease;
@@ -177,4 +179,71 @@ form .form-row .textarea {
 .submit-btn .input-data input:hover {
     color: var(--color-primary-1);
     background: var(--color-neutral-1); /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o modal */
+.modal {
+    display: none; /* Oculto por padrão */
+    position: fixed; /* Fixo na tela */
+    z-index: 1; /* Ficar acima do conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Habilita rolagem se necessário */
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo preto com opacidade */
+}
+
+/* Conteúdo do modal */
+.modal-content {
+    background-color: white; /* Cor de fundo do conteúdo do modal */
+    margin: 15% auto; /* 15% do topo e centralizado horizontalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Largura */
+    max-width: 300px; /* Largura máxima */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Sombra */
+    text-align: center; /* Centralizar texto */
+    color: black; /* Cor do texto */
+    position: relative; /* Necessário para posicionar o ícone */
+    padding-top: 40px; /* Espaço para o ícone */
+    animation: fadeIn 0.5s; /* Animação de fade-in */
+    height: 200px; /* Altura desejada */
+}
+
+/* Ícone de verificação */
+.check-icon {
+    font-size: 50px;
+    color: #4CAF50; /* Cor do ícone de verificação */
+    position: absolute;
+    top: -50px; /* Ajuste para posicionar o ícone acima da div */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white; /* Cor de fundo do ícone */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Botão OK */
+#okButton {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#okButton:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }

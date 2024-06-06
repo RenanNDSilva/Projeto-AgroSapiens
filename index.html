@@ -59,7 +59,7 @@
         <section id="home">
             <div class="shape"></div>
             <div id="cta">
-                <h1 class="title"><span>AgroSapiens:</span> inovação no agronegócio</h1>
+                <h1 class="title"><span>AgroSapiens,</span> inovação no agronegócio</h1>
                 <p class="description">A AgroSapiens é uma empresa dedicada à inovação no setor agrícola. Nossa missão é fornecer soluções avançadas e dados precisos para o mercado agropecuário. Combinando experiência e tecnologia, transformamos a maneira como os participantes desse mercado tomam decisões.</p>
                 <p class="description">Nossos valores fundamentais incluem inovação contínua, precisão baseada em dados confiáveis e simplicidade na comunicação. Junte-se à AgroSapiens e leve sua estratégia para o próximo nível!</p>
                 <div id="cta_buttons">
@@ -78,7 +78,7 @@
         <section id="guardiao">
             <div class="img-guardian"></div>
             <div id="guardian-description">
-                <h1 class="title"><span>Guardião :</span></h1>
+                <h1 class="title"><span>Guardião</span></h1>
                 <p class="description">O Guardião é uma solução completa de monitoramento meteorológico para ambientes agrícolas. Como uma miniestação meteorológica de última geração, ele oferece muito mais do que as soluções tradicionais. Equipado com hardware robusto instalado no campo, o Guardião não apenas mede temperatura, umidade e pressão atmosférica em tempo real, mas também fornece dados sobre índice de calor, pressão de vapor e déficit de pressão de vapor.</p>
                 <p class="description">Esses dados são transmitidos para uma plataforma web intuitiva, permitindo que agricultores e gestores monitorem as condições ambientais de suas propriedades de forma remota e precisa. A flexibilidade do Guardião permite que ele seja usado em vários pontos da propriedade, possibilitando a avaliação de microclimas e fornecendo insights valiosos para otimizar a produção agrícola.</p>
                 <div id="cta_buttons">
@@ -91,7 +91,7 @@
         <section id="empresa">
             <div id="contant-form">
                 <h1 class="title">Fale Conosco</h1>
-                <form action="#">
+                <form action="#" id="formulario">
                     <div class="form-row">
                         <div class="input-data">
                             <input placeholder=" Digite seu nome completo" class="inputField" type="text" required>
@@ -122,18 +122,26 @@
                     </div>
                     <div class="form-row">
                         <div class="input-data">
-                            <input placeholder=" Digite seu estado" class="inputField" type="text" required>
+                            <input placeholder=" Digite seu estado" id="estado" class="inputField" type="text" required>
                             <div class="underline"></div>
-                            <label>Estado</label>
+                            <div id="autocomplete-list" style="cursor: pointer;"></div>
+                            <label for="estado">Estado</label>
                         </div>
                     </div>
-                    <div class="form-row submit-btn">
+                    <div class="form-row submit-btn" id="submitRow">
                         <div class="input-data">
                             <div class="inner"></div>
-                            <input type="submit" value="Enviar">
+                            <input id="submitBtn" type="submit" value="Enviar">
                         </div>
                     </div>
                 </form>
+                <div id="alertModal" class="modal">
+                    <div class="modal-content">
+                        <i class="fas fa-check-circle check-icon"></i>
+                        <p>Obrigado por sua mensagem! <br> Nossa equipe responderá em breve. <br> Atenciosamente, Equipe AgroSapiens.</p>
+                        <button id="okButton">OK</button>
+                    </div>
+                </div>
             </div>
             <div id="agro-sapiens">
                 <h1 class="title">AgroSapiens</h1>
