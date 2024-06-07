@@ -1,6 +1,6 @@
 #statistics {
     display: flex;
-    min-height: calc(68.8vh - 91px);
+    min-height: calc(100vh - 91px);
     position: relative;
 }
 
@@ -9,7 +9,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     max-width: 800px;
-    width: 100%;
+    width: 40%;
     margin: auto;
 }
 
