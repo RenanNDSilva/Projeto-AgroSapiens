@@ -92,6 +92,8 @@ form .form-row .textarea {
 .inputField:focus::placeholder {
     color: var(--color-neutral-1); /* Placeholder visível quando o campo está em foco */
     transition: color 1s ease;
+    transition: opacity 1s ease, border-color 1s ease;
+    opacity: 1;
 }
 
 .textarea textarea {
@@ -135,10 +137,12 @@ form .form-row .textarea {
 
 .input-data input:focus ~ .underline:before, .underline:after, .textarea textarea:focus .underline:before, .underline:after, .input-data input:valid .underline:before, .underline:after, .textarea textarea:valid .underline:before, .underline:after {
     transform: scaleX(1);
+    border: none;
 }
 
 .inputField::placeholder {
-    color: transparent; /* Placeholder oculto */
+    opacity: 0;
+
 }
 
 .submit-btn .input-data{

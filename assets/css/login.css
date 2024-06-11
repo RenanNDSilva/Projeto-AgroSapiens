@@ -64,6 +64,21 @@ body{
     border-color: #edf2ed;
 }
 
+.guardian-button {
+    background-color: #001900;
+    color: #edf2ed !important;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .container form{
     background-color: #fff;
     display: flex;

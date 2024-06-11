@@ -23,6 +23,15 @@
     color: #333;
 }
 
+.statistics-button {
+    text-decoration: none;
+}
+
+.statistics-button:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
 .data-title {
     margin-bottom: 10px;
     font-weight: 500;

@@ -196,4 +196,3 @@ function getAverageStatistics($message, $conn) {
 
     return "Por favor, especifique uma métrica (temperatura, umidade, pressão, índice de calor, ponto de orvalho, pressão de vapor, déficit de pressão de vapor) e um intervalo de tempo (hoje, nos últimos 10 dias, nos últimos 30 dias).";
 }
-?>

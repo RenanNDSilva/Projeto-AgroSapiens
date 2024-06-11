@@ -16,7 +16,9 @@
     /* margin-bottom: 30px; Margem para afastar do rodapé */
     position: relative;
     top: 20px;
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
+
 .messages {
     flex: 1;
     width: 100%;
