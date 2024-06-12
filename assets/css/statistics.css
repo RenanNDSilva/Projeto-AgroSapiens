@@ -50,3 +50,13 @@
     display: inline-block;
     margin-left: 5px;
 }
+
+.zoom-icon {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+ 
+  .zoom-icon:hover {
+    transform: scale(1.2);
+  }
+  
