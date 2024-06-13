@@ -1,0 +1,42 @@
+/* /var/www/html/climate_dashboard/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edf2ed;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.filter {
+    margin: 20px 0;
+}
+
+.filter select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.chart-container {
+    margin: 20px 0;
+}
+
+canvas {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.chart-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chart-column {
+    width: calc(50% - 10px);
+}
