@@ -32,7 +32,7 @@
             <a href="../index.html">
                 <h1><img src="../assets/img/Logo_1.png" alt="Logo" id="nav_logo"></h1>
             </a>
-            <h2>Guardião | <span style="font-weight: normal;">Gráficos</span></h2>
+            <h2><a href="../guardiao.html" class="guardian-home">Guardião</a> | <span style="font-weight: normal;">Gráficos</span></h2>
             <div class="media-button">
                 <button class="btn-default-login">
                     <div class="btn-config">

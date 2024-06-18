@@ -54,9 +54,8 @@
 .zoom-icon {
     transition: transform 0.3s ease;
     cursor: pointer;
-  }
- 
-  .zoom-icon:hover {
+}
+
+.zoom-icon:hover {
     transform: scale(1.2);
-  }
-  
+}

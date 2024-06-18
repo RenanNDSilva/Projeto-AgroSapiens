@@ -115,3 +115,16 @@ section {
     text-decoration: none;
     z-index: 5;
 }
+
+.guardian-home {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-neutral-1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.guardian-home:hover {
+    transform: scale(1.05) translateY(-5px);
+    
+}
